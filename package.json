@@ -1,0 +1,21 @@
+{
+  "name": "insead-challenge",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.18",
+    "npm": "1.3.8"
+  },
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "greenApes",
+  "license": "",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-http-server": "0.0.2",
+    "grunt-shell": "~0.4.0"
+  }
+}
