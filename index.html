@@ -1,7 +1,12 @@
 <html>
 <head>
-    <script src="https://raw.github.com/greenapes/tarsier/master/build/tarsier.min.js"></script>
+    <script src="https://greenapes.r.worldssl.net/tarsier/v0.2/tarsier.min.js"></script>
     <style>
+        body{
+            margin:0;
+            padding: 0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
         #page:after {
             clear: both;
             display: block;
@@ -10,38 +15,103 @@
         .info {
             float: left;
             border: 5px solid #ccc;
-            padding: 5px;
             margin-right: 10px;
             overflow: hidden;
         }
-        .ga\:info-tribe,
-        ga\:info-tribe {
+        .info.right{
+            float: right;
+        }
+        .ga_info-tribe {
+            position: relative;
             width: 645px;
-            height: 730px;
+            height: 645px;
             display: block;
         }
         h2:before {
             display: inline;
-            content: "\267b";
+            
             margin-right: 5px;
         }
         h2 {
             text-align: center;
+            font-size: 32px;
+            color: #6cb344;
+        }
+        #banner{
+            position: relative;
+            width: 842px;
+            height: 720px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #banner a#greenapes{
+            display: block;
+            width: 210px;
+            height: 85px;
+            background: #fff;
+            position: absolute;
+            right: 40px;
+            top: 70px;
+            opacity: 0.0;
+        }
+        #banner a#greenapes:hover{
+            opacity: 0.5;
+        }
+        #wrap{
+            width: 1330px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #footer {
+            padding-top: 60px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        #footer a{
+            font-size: 32px;
+            color: #6cb344;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div id="page">
-        <h1>INSEAD Challange!</h1>
-        <div id="Europe" class="info">
-            <h2>Europe</h2>
-            <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="actions" animation="5000"></ga:info-tribe>
+    
+        
+        
+        <div id="wrap">
+            <div id="banner">
+                <a id="greenapes" href="http://www.greenapes.com"></a>
+                <img src="banner.jpg" alt="">    
+            </div>
+            <div id="page">
+                <br>
+                <br>
+                <div id="Europe" class="info">
+                    <h2>FONTAINEBLEAU</h2>
+                    <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="actions"  animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="eating"   animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="moving"   animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="home"     animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="jungle"   animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="DowRVJqCZvjtNlWpBfkXTymrcKuMgG" date="2013/10/28 10:00:00" duration="4" topic="shopping" animation="2000"></ga:info-tribe>
+        
+                </div>
+                <div id="Asia" class="info right">
+                    <h2>SINGAPORE</h2>
+                    <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="actions"  animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="eating"   animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="moving"   animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="home"     animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="jungle"   animation="2000"></ga:info-tribe>
+                    <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="shopping" animation="2000"></ga:info-tribe>
+                </div>
+            </div>
+            <div id="footer">
+                    <a href="http://www.greenapes.com/download">www.greenapes.com/download</a>
+            </div>
         </div>
-        <div id="Asia" class="info">
-            <h2>Asia</h2>
-            <ga:info-tribe ape="ETSvaLQpRjAzxlZMmKDgJIFnBdckWN" date="2013/10/28 10:00:00" duration="4" topic="actions" animation="5000"></ga:info-tribe>
-        </div>
-    </div>
     <script>T.replace()</script>
 </body>
 </html>
